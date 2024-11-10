@@ -43,19 +43,18 @@ EcoWatch leverages a dual-model architecture combining YOLOv8 for object detecti
    cd EcoWatch
 
 
-Install the required dependencies:
-
-
+2. **Install the required dependencies**:
+    ```bash
     pip install -r requirements.txt
     
-    
-Navigate to the source directory:
+## Usage
 
-
+1.**Navigate to the source directory**:
+   ```bash
     cd source
 
 
-Run the example script:
+2.***Run the example script***:
 
 
       python example.py
@@ -154,6 +153,17 @@ Push your branch to your fork.
 Create a pull request.
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+
+
+
+
+
+
+
+
+
 
 Contact
    
