@@ -2,7 +2,6 @@
 
 EcoWatch is an open-source ecological monitoring framework designed for deployment in Wireless Multimedia Sensor Networks (WMSNs) in remote environments. Its primary purpose is to monitor bird populations through real-time detection and counting, using an energy-efficient approach to extend operational lifespans in resource-constrained settings.
 
-![EcoWatch Framework](path_to_image.png)
 
 ## Table of Contents
 - [Overview](#overview)
