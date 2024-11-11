@@ -72,7 +72,7 @@ To run the ROI (Region of Interest) example, follow these steps:
 ## Parameters Description
 ### The parameters class contains various configuration settings for the EcoWatch project. Here is a description of each parameter:
       
-      - **captured_video_path**: Path to the captured video file.
+      captured_video_path: Path to the captured video file.
       video_base_path: Base path of the video file (without extension).
       captured_frame_dir: Directory to store captured frames.
       masks_dir: Directory to store ROI masks.
