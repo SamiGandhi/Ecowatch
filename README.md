@@ -2,18 +2,6 @@
 
 EcoWatch is an open-source ecological monitoring framework designed for deployment in Wireless Multimedia Sensor Networks (WMSNs) in remote environments. Its primary purpose is to monitor bird populations through real-time detection and counting, using an energy-efficient approach to extend operational lifespans in resource-constrained settings.
 
-
-## Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Configuration](#configuration)
-- [Results](#results)
-- [Future Work](#future-work)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Overview
 
 EcoWatch leverages a dual-model architecture combining YOLOv8 for object detection and LTCE for accurate object counting, enabling efficient and accurate wildlife monitoring. It applies Region-of-Interest (ROI)-based video compression and uses LoRaWAN for low-power data transmission, making it suitable for long-term deployment in remote or inaccessible areas.
@@ -41,43 +29,36 @@ EcoWatch leverages a dual-model architecture combining YOLOv8 for object detecti
    ```bash
    git clone https://github.com/SamiGandhi/Ecowatch
    cd EcoWatch
-
-
+   
 2. **Install the required dependencies**:
     ```bash
     pip install -r requirements.txt
-    
+  
 ## Usage
 
-1.**Navigate to the source directory**:
+1. **Navigate to the source directory**:
    ```bash
-    cd source
+   cd source
 
+2. **Run the example script**:
+   ```bash
+   python example.py
 
-2.***Run the example script***:
-
-
-      python example.py
-
-Running the ROI Example
+## Running the ROI Example:
 To run the ROI (Region of Interest) example, follow these steps:
+1. Ensure you have cloned the repository and installed the dependencies as described above.
+2. Navigate to the source directory:
+   ```bash
+   cd source
 
-Ensure you have cloned the repository and installed the dependencies as described above.
-
-Navigate to the source directory:
-
-
-      cd source
-Run the ROI example script:
-
-
+3. Run the ROI example script:
+      ```bash
       python example.py
-Find the trace files:
-      
+4. Find the trace files:   
       The trace files will be generated within a directory named after the video.
       For example, if the video is named example_video.mp4, the trace files will be located in a directory named example_video.
       Directory Structure
-      
+      ```bash
       EcoWatch/
       │
       ├── source/
@@ -88,9 +69,9 @@ Find the trace files:
       │
       └── README.md
 
-Parameters Description
-The parameters class contains various configuration settings for the EcoWatch project. Here is a description of each parameter:
-
+## Parameters Description
+### The parameters class contains various configuration settings for the EcoWatch project. Here is a description of each parameter:
+      ```bash
       captured_video_path: Path to the captured video file.
       video_base_path: Base path of the video file (without extension).
       captured_frame_dir: Directory to store captured frames.
@@ -142,28 +123,21 @@ The parameters class contains various configuration settings for the EcoWatch pr
       VEGETATION_DENSITY_LEVEL: Vegetation density level (default is 5).
       scale_factor: Scale factor (default is 100).
 
+      
+## Results
+In order to obtain the results, please contact one of the authors within the contact section.
 
-Contributing
+
+## Contributing
 We welcome contributions! Please follow these steps:
 
-Fork the repository.
-Create a new branch for your feature or bug fix.
-Make your changes and commit them with descriptive commit messages.
-Push your branch to your fork.
-Create a pull request.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them with descriptive commit messages.
+4. Push your branch to your fork.
+5. Create a pull request.
 
 
-
-
-
-
-
-
-
-
-
-
-Contact
-   
+##Contact
+HADJI Oussama: ou.hadji@univ-batna2.dz or hadjiousssama@gmail.com
+MAIMOUR Moufida: moufida.maimour@univ-lorraine.fr
