@@ -139,5 +139,3 @@ We welcome contributions! Please follow these steps:
 
 
 ## Contact
-- HADJI Oussama: ou.hadji@univ-batna2.dz or hadjiousssama@gmail.com
-- MAIMOUR Moufida: moufida.maimour@univ-lorraine.fr
